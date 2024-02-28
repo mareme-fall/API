@@ -1,0 +1,31 @@
+/* App.css */
+
+/* Style de base pour le corps de l'application */
+body {
+  font-family: Arial, sans-serif; /* Définit la police de caractères par défaut */
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime les rembourrages par défaut */
+ 
+} 
+
+
+/* Style pour le conteneur principal de l'application */
+.App {
+  text-align: center; /* Centre le contenu à l'intérieur du conteneur */
+  margin-top: 50px; /* Ajoute un espace en haut du conteneur */
+}
+
+/* Style pour la liste d'utilisateurs */
+ul {
+  list-style-type: none; /* Supprime les puces de la liste */
+  padding: 0; /* Supprime le rembourrage de la liste */
+}
+
+/* Style pour chaque élément de liste d'utilisateurs */
+li {
+  margin-bottom: 10px; /* Ajoute un espace entre chaque élément de liste */
+  padding: 10px; /* Ajoute un rembourrage à chaque élément de liste */
+  border: 1px solid #ccc; /* Ajoute une bordure grise autour de chaque élément */
+  border-radius: 5px; /* Ajoute un coin arrondi aux bords de chaque élément */
+  background-color: #f9f9f9; /* Définit la couleur de fond de chaque élément */
+}
